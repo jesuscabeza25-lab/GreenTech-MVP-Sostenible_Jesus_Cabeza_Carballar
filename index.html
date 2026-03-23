@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salvemos el Planeta | GreenTech</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* CSS Nativo y variables para facilitar la escalabilidad */
+    :root {
+      --bg-light: #f4fdf4;
+      --green-primary: #28a745;
+      --green-dark: #1e7e34;
+      --text-dark: #212529;
+    }
+
+    body {
+      font-family: "Montserrat", sans-serif;
+      background-color: var(--bg-light);
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .hero-container {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      color: white;
+      overflow: hidden;
+    }
+
+    /* Transformamos el background-image en una etiqueta img para usar lazy loading */
+    .hero-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(0.6); /* Sustituye al costoso text-shadow */
+    }
+
+    .hero-content {
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 5vw, 5rem);
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: clamp(1.2rem, 2vw, 1.75rem);
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
+
+    .btn-eco {
+      background-color: var(--green-primary);
+      color: white;
+      border: 2px solid var(--green-dark);
+      padding: 15px 40px;
+      font-size: 1.5rem;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+      transition: background-color 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+
+    .btn-eco:hover {
+      background-color: var(--green-dark);
+    }
+
+    .footer-eco {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--text-dark);
+      color: white;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="hero-container">
+    <img 
+      src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1200&auto=format&fit=crop" 
+      alt="Bosque verde visto desde arriba" 
+      class="hero-img" 
+      loading="lazy" 
+    />
+    
+    <div class="hero-content">
+      <h1>Salvemos el Planeta</h1>
+      <p>Únete a la revolución verde de GreenTech.</p>
+      <button class="btn-eco">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22L6.66 19.7C7.14 19.87 7.64 20 8 20C19 20 22 3 22 3C21 5 14 5.25 9 6.25C4 7.25 2 11.5 2 13.5C2 15.5 3.75 17.25 3.75 17.25C7 8 17 8 17 8Z"/>
+        </svg>
+        Quiero ayudar
+      </button>
+    </div>
+  </main>
+
+  <footer id="footer-dinamico" class="footer-eco"></footer>
+
+  <script>
+    // Vanilla JS reemplazando a jQuery y Moment.js
+    document.addEventListener("DOMContentLoaded", () => {
+      const anioActual = new Date().getFullYear();
+      const footer = document.getElementById("footer-dinamico");
+      // Arreglamos la broma del CPU :)
+      footer.innerHTML = `GreenTech Solutions &copy; ${anioActual} - Haciendo un mundo mejor (y manteniendo tu CPU a temperatura óptima)`;
+    });
+  </script>
+</body>
+</html>
