@@ -1,7 +1,7 @@
 # 🌿 GreenTech MVP Sostenible
 
-**Desarrollado por:** [Tus Nombres y Apellidos]  
-**Rol:** Especialista en Sostenibilidad TIC
+**Desarrollado por:** JESÚS CABEZA CARBALLAR  
+**Rol:** Especialista en Sostenibilidad 
 
 ## 1. Resumen Ejecutivo
 Este proyecto representa la refactorización profunda del Producto Mínimo Viable (MVP) para la campaña "Salvemos el Planeta". El objetivo principal ha sido alinear el desarrollo técnico con el mensaje ecologista de la ONG, eliminando el "bloatware" (dependencias inútiles) que generaba un consumo energético injustificado y sobrecalentamiento en dispositivos de gama baja.
