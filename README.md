@@ -16,7 +16,7 @@ En la versión original, se identificó la importación de frameworks mastodónt
 * **Optimización Tipográfica:** Se limitó la petición de Google Fonts estrictamente a los grosores de fuente utilizados (400 y 700).
 
 ## 3. Impacto Físico, ASG y Economía Circular
-Las decisiones de diseño de software tienen consecuencias físicas tangibles. [cite_start]Al importar dependencias pesadas innecesariamente, estábamos forzando un mayor consumo de ancho de banda y ciclos de CPU, lo que fomentaba la obsolescencia programada al exigir a los usuarios dispositivos más potentes[cite: 11]. 
+Las decisiones de diseño de software tienen consecuencias físicas tangibles.Al importar dependencias pesadas innecesariamente, estábamos forzando un mayor consumo de ancho de banda y ciclos de CPU, lo que fomentaba la obsolescencia programada al exigir a los usuarios dispositivos más potentes. 
 
 * [cite_start]**Reducción del Carbono Embebido:** Siguiendo las directrices de las *Web Sustainability Guidelines (WSG) 1.0*[cite: 41], al reducir radicalmente el peso de transferencia de la página (eliminando cientos de kilobytes de código muerto), disminuimos la energía requerida por los centros de datos y la red de transmisión.
 * [cite_start]**Lucha contra la Obsolescencia Programada:** El enfoque *Green Software* nos enseña que un software eficiente permite que hardware más antiguo siga siendo funcional[cite: 42]. Al aliviar la carga del procesador del cliente final (eliminando jQuery y el repintado excesivo del DOM), alargamos la vida útil de sus baterías y dispositivos, frenando la generación de basura electrónica (e-waste).
