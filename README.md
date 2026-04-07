@@ -18,9 +18,9 @@ En la versión original, se identificó la importación de frameworks mastodónt
 ## 3. Impacto Físico, ASG y Economía Circular
 Las decisiones de diseño de software tienen consecuencias físicas tangibles.Al importar dependencias pesadas innecesariamente, estábamos forzando un mayor consumo de ancho de banda y ciclos de CPU, lo que fomentaba la obsolescencia programada al exigir a los usuarios dispositivos más potentes. 
 
-* [cite_start]**Reducción del Carbono Embebido:** Siguiendo las directrices de las *Web Sustainability Guidelines (WSG) 1.0*[cite: 41], al reducir radicalmente el peso de transferencia de la página (eliminando cientos de kilobytes de código muerto), disminuimos la energía requerida por los centros de datos y la red de transmisión.
-* [cite_start]**Lucha contra la Obsolescencia Programada:** El enfoque *Green Software* nos enseña que un software eficiente permite que hardware más antiguo siga siendo funcional[cite: 42]. Al aliviar la carga del procesador del cliente final (eliminando jQuery y el repintado excesivo del DOM), alargamos la vida útil de sus baterías y dispositivos, frenando la generación de basura electrónica (e-waste).
-* [cite_start]**Ingeniería de Software Verde:** Tal como indican Verdecchia et al., la sostenibilidad técnica (código limpio y mantenible) está intrínsecamente ligada a la sostenibilidad medioambiental en la nube y en el cliente[cite: 43].
+* **Reducción del Carbono Embebido:** Siguiendo las directrices de las *Web Sustainability Guidelines (WSG) 1.0*, al reducir radicalmente el peso de transferencia de la página (eliminando cientos de kilobytes de código muerto), disminuimos la energía requerida por los centros de datos y la red de transmisión.
+* **Lucha contra la Obsolescencia Programada:** El enfoque *Green Software* nos enseña que un software eficiente permite que hardware más antiguo siga siendo funcional. Al aliviar la carga del procesador del cliente final (eliminando jQuery y el repintado excesivo del DOM), alargamos la vida útil de sus baterías y dispositivos, frenando la generación de basura electrónica (e-waste).
+* **Ingeniería de Software Verde:** Tal como indican Verdecchia et al., la sostenibilidad técnica (código limpio y mantenible) está intrínsecamente ligada a la sostenibilidad medioambiental en la nube y en el cliente.
 
 ## 4. Referencias
 [1] W3C, "Web Sustainability Guidelines (WSG) 1.0," World Wide Web Consortium, 2023. [Online]. Available: https://www.w3.org/TR/wsgl/
